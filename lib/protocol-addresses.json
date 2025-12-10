@@ -1,0 +1,304 @@
+{
+  "protocolAddresses": {
+    "RCG8KwJNDVwpUBcdoa6AoHqHVJsA1uMYMR": {
+      "name": "StakeGuard",
+      "description": "Nothing at stake protection",
+      "color": "#28a745",
+      "icon": "glyphicon-shield"
+    },
+    "RP7id3CzCnwvzNUZesYJM6ekvsxpEzMqB1": {
+      "name": "PBaaS Definition",
+      "description": "Defines blockchain parameters of a PBaaS blockchain",
+      "color": "#007bff",
+      "icon": "glyphicon-th"
+    },
+    "RQWMeecjGFF3ZAVeSimRbyG9iMDUHPY5Ny": {
+      "name": "Notary Evidence",
+      "description": "Notary evidence output type",
+      "color": "#6f42c1",
+      "icon": "glyphicon-list-alt"
+    },
+    "RMYbaxFsCT1xfMmwLCCYAVf2DsxcDTtBmx": {
+      "name": "Earned Notarization",
+      "description": "Notarization created by miners and/or stakers",
+      "color": "#fd7e14",
+      "icon": "glyphicon-certificate"
+    },
+    "RDTq9qn1Lthv7fvsdbWz36mGp8HK9XaruZ": {
+      "name": "Accepted Notarization",
+      "description": "Validated notarizations and proofs for the Verus chain",
+      "color": "#28a745",
+      "icon": "glyphicon-ok-sign"
+    },
+    "RRbKYitLH9EhQCvCo4bPZqJx3TWxASadxE": {
+      "name": "Finalize Notarization",
+      "description": "Output spendable when notarization is considered final",
+      "color": "#17a2b8",
+      "icon": "glyphicon-flag"
+    },
+    "RMXeZGxxRuABFkT4uLSCeuJHLegBNGZq8D": {
+      "name": "Reserve Output",
+      "description": "Flexible Verus reserve currency transaction support on PBaaS chains",
+      "color": "#20c997",
+      "icon": "glyphicon-piggy-bank"
+    },
+    "REuGNkgunnw1J4Zx6Y9UCp8YHVZqYATe9D": {
+      "name": "Advanced Name Reservation",
+      "description": "Versioned identity reservation with parent for making IDs from a currency",
+      "color": "#6610f2",
+      "icon": "glyphicon-tag"
+    },
+    "RTqQe58LSj2yr5CrwYFwcsAQ1edQwmrkUU": {
+      "name": "Reserve Transfer",
+      "description": "Send reserves between chains with optional conversion",
+      "color": "#dc3545",
+      "icon": "glyphicon-transfer"
+    },
+    "RFw9AVfgNKcHe2Vp2eyzHrX65aFD9Ky8df": {
+      "name": "Reserve Deposit",
+      "description": "Outputs spent into cross-chain import thread on Verus chain",
+      "color": "#ffc107",
+      "icon": "glyphicon-download-alt"
+    },
+    "RGkrs7SndcpsV61oKK2jYdMiU8PgkLU2qP": {
+      "name": "Cross-chain Export",
+      "description": "Aggregated cross-chain export transaction output",
+      "color": "#e83e8c",
+      "icon": "glyphicon-export"
+    },
+    "RKLN7wFhbrJFkPG8XkKteErAe5CjqoddTm": {
+      "name": "Cross-chain Import",
+      "description": "Cross-chain import transaction output",
+      "color": "#20c997",
+      "icon": "glyphicon-import"
+    },
+    "REU1HKkmdwdxKMpfD3QoxeERYd9tfMN6n9": {
+      "name": "Currency State",
+      "description": "Coinbase output required on PBaaS chains",
+      "color": "#6c757d",
+      "icon": "glyphicon-stats"
+    },
+    "RS545EBdK5AzPTaGHNUg78wFuuAzBb74FB": {
+      "name": "Identity Primary",
+      "description": "Primary identity output",
+      "color": "#007bff",
+      "icon": "glyphicon-user"
+    },
+    "RG6My2zwh9hBFSgUhZ5UmmUtxBap57aU4N": {
+      "name": "Identity Revoke",
+      "description": "Identity revocation output",
+      "color": "#dc3545",
+      "icon": "glyphicon-ban-circle"
+    },
+    "RRw9rJMPwdNqC1wgXn5vryJwMDyBgpXjYT": {
+      "name": "Identity Recover",
+      "description": "Identity recovery output",
+      "color": "#28a745",
+      "icon": "glyphicon-refresh"
+    },
+    "RCySaThHfVBcHZgjJGoBw3un4vcsRJNPYw": {
+      "name": "Identity Commitment",
+      "description": "Identity commitment output",
+      "color": "#6610f2",
+      "icon": "glyphicon-lock"
+    },
+    "RDbzJU8rEv4CkMABNUnKQoKDTfnikSm9fM": {
+      "name": "Identity Reservation",
+      "description": "Identity reservation output",
+      "color": "#fd7e14",
+      "icon": "glyphicon-bookmark"
+    },
+    "REL7oLNeaeoQB1XauiHfcvjKMZC52Uj5xF": {
+      "name": "Finalize Export",
+      "description": "Export finalization output",
+      "color": "#17a2b8",
+      "icon": "glyphicon-send"
+    },
+    "RQ55dLQ7uGnLx8scXfkaFV6QS6qVBGyxAG": {
+      "name": "Fee Pool",
+      "description": "Blockchain fee pool output",
+      "color": "#ffc107",
+      "icon": "glyphicon-scale"
+    },
+    "RGKRjeTBw4LYFotSDLT6RWzMHbhXri6BG6": {
+      "name": "Assets",
+      "description": "Tokens/Assets contract",
+      "color": "#e83e8c",
+      "icon": "glyphicon-briefcase"
+    },
+    "RFYE2yL3KknWdHK6uNhvWacYsCUtwzjY3u": {
+      "name": "Assets (Normal)",
+      "description": "Assets normal address",
+      "color": "#e83e8c",
+      "icon": "glyphicon-briefcase"
+    },
+    "R9zHrofhRbub7ER77B7NrVch3A63R39GuC": {
+      "name": "Faucet",
+      "description": "Faucet contract",
+      "color": "#17a2b8",
+      "icon": "glyphicon-tint"
+    },
+    "RKQV4oYs4rvxAWx1J43VnT73rSTVtUeckk": {
+      "name": "Faucet (Normal)",
+      "description": "Faucet normal address",
+      "color": "#17a2b8",
+      "icon": "glyphicon-tint"
+    },
+    "RTsRBYL1HSvMoE3qtBJkyiswdVaWkm8YTK": {
+      "name": "Rewards",
+      "description": "Rewards contract",
+      "color": "#ffc107",
+      "icon": "glyphicon-gift"
+    },
+    "RMgye9jeczNjQx9Uzq8no8pTLiCSwuHwkz": {
+      "name": "Rewards (Normal)",
+      "description": "Rewards normal address",
+      "color": "#ffc107",
+      "icon": "glyphicon-gift"
+    },
+    "REabWB7KjFN5C3LFMZ5odExHPenYzHLtVw": {
+      "name": "Dice",
+      "description": "Dice contract",
+      "color": "#6610f2",
+      "icon": "glyphicon-record"
+    },
+    "RLEe8f7Eg3TDuXii9BmNiiiaVGraHUt25c": {
+      "name": "Dice (Normal)",
+      "description": "Dice normal address",
+      "color": "#6610f2",
+      "icon": "glyphicon-record"
+    },
+    "RNXZxgyWSAE6XS3qGnTaf5dVNCxnYzhPrg": {
+      "name": "Lotto",
+      "description": "Lotto contract",
+      "color": "#28a745",
+      "icon": "glyphicon-star"
+    },
+    "RLW6hhRqBZZMBndnyPv29Yg3krh6iBYCyg": {
+      "name": "Lotto (Normal)",
+      "description": "Lotto normal address",
+      "color": "#28a745",
+      "icon": "glyphicon-star"
+    },
+    "RUKTbLBeKgHkm3Ss4hKZP3ikuLW1xx7B2x": {
+      "name": "Finite State Machine",
+      "description": "FSM contract",
+      "color": "#6c757d",
+      "icon": "glyphicon-cog"
+    },
+    "RWSHRbxnJYLvDjpcQ2i8MekgP6h2ctTKaj": {
+      "name": "FSM (Normal)",
+      "description": "FSM normal address",
+      "color": "#6c757d",
+      "icon": "glyphicon-cog"
+    },
+    "RL4YPX7JYG3FnvoPqWF2pn3nQknH5NWEwx": {
+      "name": "Auction",
+      "description": "Auction contract",
+      "color": "#fd7e14",
+      "icon": "glyphicon-sound-stereo"
+    },
+    "RFtVDNmdTZBTNZdmFRbfBgJ6LitgTghikL": {
+      "name": "Auction (Normal)",
+      "description": "Auction normal address",
+      "color": "#fd7e14",
+      "icon": "glyphicon-sound-stereo"
+    },
+    "RDVHcSekmXgeYBqRupNTmqo3Rn8QRXNduy": {
+      "name": "M-of-N",
+      "description": "M-of-N multisig contract",
+      "color": "#20c997",
+      "icon": "glyphicon-th-list"
+    },
+    "RTPwUjKYECcGn6Y4KYChLhgaht1RSU4jwf": {
+      "name": "M-of-N (Normal)",
+      "description": "M-of-N normal address",
+      "color": "#20c997",
+      "icon": "glyphicon-th-list"
+    },
+    "RQy3rwX8sP9oDm3c39vGKA6H315cgtPLfr": {
+      "name": "Channels",
+      "description": "Payment channels contract",
+      "color": "#007bff",
+      "icon": "glyphicon-resize-horizontal"
+    },
+    "RQUuT8zmkvDfXqECH4m3VD3SsHZAfnoh1v": {
+      "name": "Channels (Normal)",
+      "description": "Channels normal address",
+      "color": "#007bff",
+      "icon": "glyphicon-resize-horizontal"
+    },
+    "REt2C4ZMnX8YYX1DRpffNA4hECZTFm39e3": {
+      "name": "Oracles",
+      "description": "Oracles contract",
+      "color": "#6f42c1",
+      "icon": "glyphicon-eye-open"
+    },
+    "RHkFKzn1csxA3fWzAsxsLWohoCgBbirXb5": {
+      "name": "Oracles (Normal)",
+      "description": "Oracles normal address",
+      "color": "#6f42c1",
+      "icon": "glyphicon-eye-open"
+    },
+    "RAL5Vh8NXmFqEKJRKrk1KjKaUckK7mM1iS": {
+      "name": "Prices",
+      "description": "Prices contract",
+      "color": "#dc3545",
+      "icon": "glyphicon-signal"
+    },
+    "RBunXCsMHk5NPd6q8SQfmpgre3x133rSwZ": {
+      "name": "Prices (Normal)",
+      "description": "Prices normal address",
+      "color": "#dc3545",
+      "icon": "glyphicon-signal"
+    },
+    "RHnkVb7vHuHnjEjhkCF1bS6xxLLNZPv5fd": {
+      "name": "Pegs",
+      "description": "Pegs contract",
+      "color": "#17a2b8",
+      "icon": "glyphicon-pushpin"
+    },
+    "RMcCZtX6dHf1fz3gpLQhUEMQ8cVZ6Rzaro": {
+      "name": "Pegs (Normal)",
+      "description": "Pegs normal address",
+      "color": "#17a2b8",
+      "icon": "glyphicon-pushpin"
+    },
+    "RGLSRDnUqTB43bYtRtNVgmwSSd1sun2te8": {
+      "name": "Triggers",
+      "description": "Triggers contract",
+      "color": "#ffc107",
+      "icon": "glyphicon-flash"
+    },
+    "RMN25Tn8NNzcyQDiQNuMp8UmwLMFd9thYc": {
+      "name": "Triggers (Normal)",
+      "description": "Triggers normal address",
+      "color": "#ffc107",
+      "icon": "glyphicon-flash"
+    },
+    "REpyKi7avsVduqZ3eimncK4uKqSArLTGGK": {
+      "name": "Payments",
+      "description": "Payments contract",
+      "color": "#28a745",
+      "icon": "glyphicon-credit-card"
+    },
+    "RHRX8RTMAh2STWe9DHqsvJbzS7ty6aZy3d": {
+      "name": "Payments (Normal)",
+      "description": "Payments normal address",
+      "color": "#28a745",
+      "icon": "glyphicon-credit-card"
+    },
+    "RKWpoK6vTRtq5b9qrRBodLkCzeURHeEk33": {
+      "name": "Gateways",
+      "description": "Gateways contract",
+      "color": "#e83e8c",
+      "icon": "glyphicon-globe"
+    },
+    "RGJKV97ZN1wBfunuMt1tebiiHENNEq73Yh": {
+      "name": "Gateways (Normal)",
+      "description": "Gateways normal address",
+      "color": "#e83e8c",
+      "icon": "glyphicon-globe"
+    }
+  }
+}
